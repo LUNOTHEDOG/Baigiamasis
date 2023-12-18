@@ -5,6 +5,7 @@ Lenteles: Studentai, MokomojiDalykoSkola, studentai_skolos( tarpine lentele ).
 
 # Diegimas
 git clone https://github.com/LUNOTHEDOG/Baigiamasis/edit/Studentai-APP.git
+
 pip install -r requirements.txt
 
 # Paleidimas
