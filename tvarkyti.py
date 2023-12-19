@@ -38,9 +38,6 @@ class Tvarkyti:
 
 
     def asmenine_informacija_call(self):
-        # Išvalyti seną canvas
-        # self.clear_canvas()
-
         new_canvas = tk.Canvas(self.master, width=340, height=325, bg="#00353B", highlightbackground="black",
                                highlightthickness=0, )
         close_button = MyCancelButton(new_canvas, text='x', command=new_canvas.destroy)
