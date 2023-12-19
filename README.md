@@ -4,7 +4,7 @@ Studentai bei skolos saugomi duomenu bazeje naudojant SQLAlchemy (ORM) bibliotek
 Lenteles: Studentai, MokomojiDalykoSkola, studentai_skolos( tarpine lentele ).
 
 # Diegimas
-* git clone 
+* git clone https://github.com/LUNOTHEDOG/Baigiamasis.git
 
 * pip install -r requirements.txt
 
