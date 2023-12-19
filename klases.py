@@ -10,7 +10,7 @@ class MyCombobox(ttk.Combobox):
 
         combostyle = ttk.Style()
 
-        # Tikriname, ar tema dar neegzistuoja
+        
         if 'combostyle' not in combostyle.theme_names():
             combostyle.theme_create('combostyle', parent='alt',
                             settings = {'TCombobox':
@@ -35,15 +35,15 @@ class MyButton(tk.Button):
     def __init__(self, master=None, **kwargs):
         super().__init__(master, **kwargs)
 
-        # Susiejame įvykius "Enter" ir "Leave" su savo funkcijomis
+        
         self.bind("<Enter>", self.on_enter)
         self.bind("<Leave>", self.on_leave)
 
     def on_enter(self, event):
-        # Keičiame mygtuko foninę spalvą, kai pele užvedama ant jo
+       
         self.config(bg="#3f424f", fg="white")
 
-        # Jei šis mygtukas yra dalis iš pagrindinio langų, tai nustatome statuso juostos tekstą
+        
         if hasattr(self.master, 'status_bar'):
             text = ""
             if self.cget('text') == "Žurnalas":
@@ -57,10 +57,10 @@ class MyButton(tk.Button):
 
             self.master.status_bar.config(text=text)
     def on_leave(self, event):
-        # Grąžiname mygtuko foninę spalvą į pradinę, kai pele paliekama nuo jo
+        
         self.config(bg="SystemButtonFace", fg="black")
 
-        # Jei šis mygtukas yra dalis iš pagrindinio langų, tai nustatome statuso juostos tekstą
+        
         if hasattr(self.master, 'status_bar'):
             self.master.status_bar.config(text="")
 class MyCancelButton(CTkButton):
@@ -110,7 +110,7 @@ class MyEntry(ttk.Entry):
     def __init__(self, master=None, **kwargs):
         super().__init__(master, **kwargs)
 
-        # Create a custom style
+        
         style = ttk.Style()
         self.configure(style="MyCustom.TEntry",font=("Helvetica", 8, "bold"))
         style.configure("MyCustom.TEntry", padding=0, relief="flat",  borderwidth=0, fieldbackground="#3f424f",
