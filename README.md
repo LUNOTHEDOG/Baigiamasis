@@ -2,7 +2,7 @@
 
 ## Description
 
-The final exam project is a student journal program created using Tkinter GUI. This program allows you to view a list of students, manage records (edit student information, add or delete debts), create a new student, and delete an existing student. Students and debts are stored in a database using the SQLAlchemy (ORM) library with ManyToMany relationships. The database consists of three tables: Students, LearningSubjectDebt, student_debts (intermediary table).
+Student journal program created using Tkinter GUI. This program allows you to view a list of students, manage records (edit student information, add or delete debts), create a new student, and delete an existing student. Students and debts are stored in a database using the SQLAlchemy (ORM) library with ManyToMany relationships. The database consists of three tables: Students, LearningSubjectDebt, student_debts (intermediary table).
 
 ## Installation
 
