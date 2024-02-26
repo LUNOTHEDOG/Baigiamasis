@@ -9,7 +9,7 @@ The final exam project is a student journal program created using Tkinter GUI. T
 1. Clone the project using the `git clone` command:
 
     ```bash
-    git clone https://github.com/LUNOTHEDOG/FinalProject.git
+    git clone https://github.com/LUNOTHEDOG/Baigiamasis.git
     ```
 
 2. Install the required dependencies:
