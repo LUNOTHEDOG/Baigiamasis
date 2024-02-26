@@ -1,4 +1,4 @@
-# Final Project - Student Journal Program
+#  Student Journal Program (CRUD, SQLAlchemy, GUI)
 
 ## Description
 
